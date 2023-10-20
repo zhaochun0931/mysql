@@ -2,4 +2,6 @@ show databases;
 
 create database test;
 
+show create database test;
+
 use test;
