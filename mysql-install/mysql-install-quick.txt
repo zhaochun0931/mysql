@@ -19,9 +19,10 @@ mysql -h localhost -u root -p
 
 
 # there is no default password for root, but you can use below command to configure the password for root user, in below example, we change the root password to password
-
 alter user root@localhost identified with mysql_native_password by 'password';
 
+# removee the root password
+alter user root@localhost identified with mysql_native_password by '';
 
 
 
