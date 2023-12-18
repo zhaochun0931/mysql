@@ -1,6 +1,8 @@
+create database test;
+
 show databases;
 
-create database test;
+
 
 show create database test;
 
