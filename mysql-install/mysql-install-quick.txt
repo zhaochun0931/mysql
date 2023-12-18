@@ -29,6 +29,16 @@ alter user root@localhost identified with mysql_native_password by '';
 
 
 
+# change root password 
+mysqladmin -u root -p password
+
+
+# mysqladmin -u root -p password
+Enter password:
+New password:
+Confirm new password:
+Warning: Since password will be sent to server in plain text, use ssl connection to ensure password safety.
+root@test:~#
 
 
 
