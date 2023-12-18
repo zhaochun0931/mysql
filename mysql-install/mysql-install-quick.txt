@@ -3,6 +3,11 @@ apt update
 apt install -y mysql-server
 
 
+systemctl status mysql.service
+systemctl enable mysql.service
+systemctl start mysql.service
+
+
 # instal mysql client
 apt install -y mysql-client
 
