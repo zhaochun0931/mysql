@@ -18,6 +18,11 @@ mysql -u root -p
 mysql -h localhost -u root -p
 
 
+
+# check mysql version info
+mysql --version
+mysql -V
+
 select version();
 mysql> select version();
 +-----------+
@@ -28,6 +33,42 @@ mysql> select version();
 1 row in set (0.00 sec)
 
 mysql>
+
+
+
+
+
+
+
+
+
+
+# load the sample database
+
+https://www.mysqltutorial.org/getting-started-with-mysql/how-to-load-sample-database-into-mysql-database-server/
+
+
+
+mysql> source /tmp/mysqlsampledatabase.sql
+
+mysql> show databases;
++--------------------+
+| Database           |
++--------------------+
+| classicmodels      |
+| information_schema |
+| mysql              |
+| performance_schema |
+| sys                |
++--------------------+
+5 rows in set (0.00 sec)
+
+mysql>
+
+
+the sample database classicmodels was loaded.
+
+
 
 
 
