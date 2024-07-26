@@ -19,23 +19,21 @@ use test;
 
 
 # create table
-
 create table t1 (id int, name char(32));
-drop table t1;
-
 show tables;
-
 describe t1;
+drop table t1;
 
 
 
 # input some entries
-
 insert into t1 values(1,'a1');
 insert into t1 values(2,'a2');
 
-select * from t1;
 
+
+# perform query operation
+select * from t1;
 select name from t1;
 
 update t1 set name='a3' where id=2;
