@@ -5,10 +5,13 @@ mysql>
 create database test;
 drop database test;
 show databases;
-
+select database();
 
 
 show create database test;
+
+
+# choose a database to use
 use test;
 
 
