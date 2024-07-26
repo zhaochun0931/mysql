@@ -1,15 +1,14 @@
+mysql>
+
+
 # create database
-
-
 create database test;
 drop database test;
-
 show databases;
 
 
 
 show create database test;
-
 use test;
 
 
