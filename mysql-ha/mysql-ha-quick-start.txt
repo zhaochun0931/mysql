@@ -1,1 +1,16 @@
 
+docker network create cluster
+
+Then, start the management node:
+
+
+
+
+Next, start the two data nodes
+
+
+
+Finally, start the MySQL server node:
+
+
+docker logs mysql1 2>&1 | grep PASSWORD
