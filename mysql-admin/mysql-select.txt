@@ -1,1 +1,5 @@
 select * from employees;
+
+The result of a SELECT statement is called a result set as it’s a set of rows that results from the query.
+
+
