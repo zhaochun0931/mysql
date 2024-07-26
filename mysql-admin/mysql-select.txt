@@ -1,5 +1,12 @@
 select * from employees;
 
 The result of a SELECT statement is called a result set as it’s a set of rows that results from the query.
+The SELECT * is often called “select star” or “select all” since it selects data from all columns of the table. In practice, you should use the SELECT * for the ad-hoc queries only.
 
 
+
+
+SELECT lastname, firstName, jobTitle FROM employees;
+SELECT lastName, firstName, jobTitle FROM employees;
+
+the column name is case insensitive, in other words, you can use the upper case or lower case column name.
