@@ -5,3 +5,12 @@ apt install -y mysql-server
 systemctl status mysql
 
 systemctl start mysql
+
+
+
+
+
+mysql --version
+mysql -V
+
+
