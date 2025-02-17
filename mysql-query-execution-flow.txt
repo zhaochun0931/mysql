@@ -1,0 +1,18 @@
+Query Execution Flow in MySQL:
+
+Query Input: The user inputs an SQL query.
+
+Parser: The query goes through the parser, which checks the syntax and creates a parse tree.
+
+Analyzer: The analyzer checks if the SQL query is semantically valid (checks for table and column existence, permission checks).
+
+Optimizer: The optimizer takes over and generates an execution plan that optimizes the performance of the query.
+
+Execution: The execution engine finally runs the query based on the optimized plan.
+
+
+
+
+
+
+Parser -> Analyzer -> Optimizer
