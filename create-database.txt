@@ -2,8 +2,8 @@ mysql>
 
 
 # create database
-create database test;
-drop database test;
+create database DBNAME;
+drop database DBNAME;
 show databases;
 select database();
 
